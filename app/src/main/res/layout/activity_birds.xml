@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.azexotic.android.azebr.BirdsActivity"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#90000000"
+        android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SANCHO"
+        android:textColor="#ffffff"
+        android:textSize="45sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/sancho"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our bird of the week is Sancho! Many of you are familiar with this adorable girl, but for those of you who aren't, Sancho is a 56 year old Blue and Gold Macaw. She was a breeder at one point, but now is at the rescue awaiting her forever home. She loves to be on a stand, and will happily stay there all day. She also loves to be playful and interact with people. Come down to the rescue and see this sweet girl today!"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        />
+
+    </LinearLayout>
+</LinearLayout>
